@@ -11,4 +11,12 @@ Como primer paso, lo que hacemos es crear ambos emblemas como articulos asociado
 
 1er Emblema Thanks for playing
 
-Para este emblema lo primero fue crearlo desde el roblox studio como articulo asociado a nuestro juego
+Para poder obtener este emblema el usuario debera ingresar al juego y despues de 10 segundos dentro del juego, le aparecera que ha obtenido el emblema Thanks for playing.
+
+El emblema funciona mediante una comparación del modulo BagdeService en la cual se compara los emblemas que posee el usuario, esto mediante el id del usuario que de igual es extraido, con el id del emblema de Thanks for playing (2146353671), si no lo tiene entonces se le agregara al usuario en su lista de coleccionables, pero en caso de que el usuario ya lo tenga, no sucede nada.
+
+2do Emblema Met the CREATOR
+
+Para este otro caso, de igual forma se usa el modulo BagdeService, aunque sera necesario crear una tabla con el nombre o nombres de los creadores del juego, en este caso mi nametag "Gonza_Moo", como primer paso, verificamos que el creador este dentro del juego y dentro de nuestro servidor, porsterior a eso, extraemos una parte del humanoid, forma en la que roblos se refiere al personje de los jugadores, lo conectamos con la funcion de "Touched" para que el usuario deba de dar tocar al persona del creador para que de esta forma pueda obteneer el emblema, al igual que el ejemplo anterior esto es solo es obtenible una vez.
+
+En caso de que el usuario se llegue a encontrar nuevamente con el creador y toque el persona del mismo, el emblema no podra ser entregado por segunda ocasion esto debido a la igualacion del id del jugador con el id del emblema (2146354120).
