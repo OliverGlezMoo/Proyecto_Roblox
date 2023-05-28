@@ -13,6 +13,8 @@ Realizar un pequeño minijuego (completo) dentro del juego Roblox, con el fin de
 Los emblemas son insignias que los usuarios pueden obtener y coleccionar, son programas para que el usuario las obtenga al cumplir con ciertos requisitos.
 Para esta ocasion he programada 2 emblemas obtenidos de fomra gratuita, ya que de igual forma se pueden programar para que sea obtenible al comprar alguna cosa de paga.
 
+Los scrips relacionados con los emblemas deberan ser colocados en el apartado ServerScriptService, para que estos se ejecuten de manera paralera a cuando el usuario accede el juego.
+
 ![Emblemas](https://github.com/OliverGlezMoo/Proyecto_Roblox/assets/123349304/17e4f99b-a186-47ff-9d52-f5ecb9d33ff4)
 
 Como primer paso, lo que hacemos es crear ambos emblemas como articulos asociados a nuestro juego
