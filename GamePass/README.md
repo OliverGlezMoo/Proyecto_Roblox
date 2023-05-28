@@ -10,4 +10,9 @@ Para los GamePass es necesario crear una screen, a la cual le vamos a crear un b
 
 ![image](https://github.com/OliverGlezMoo/Proyecto_Roblox/assets/123349304/84a65e80-3dce-451c-bcd2-6aaaec781a1c)
 
-Botton para comprar el pase en la pantalla dentro del juego.
+### LocalScript
+
+Dentro del localscript lo que implementamos en la accion del boton, para ello lo que hacemos es usar la función MouseButton1Click para comprobar si el usuario a presionada el boton, en caso de hacerlo hacemos una comparacion del id del gamepass con el id del usuario para verificar si el usuario ya posee o no el gamepass, en caso de que no lo tenga se desplegara el mensaje de compra
+
+![image](https://github.com/OliverGlezMoo/Proyecto_Roblox/assets/123349304/0d30d66a-72e6-46b2-b1eb-3cdfb176ae8e)
+
