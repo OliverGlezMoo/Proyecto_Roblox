@@ -12,4 +12,17 @@ Para ello lo primero que debemos hacer es comprobar que la herramienta este ubic
 
 Posterior a ello el bloque obtendra las caracterisitcas de poder generar una herramientas (Usamos una funcion establecida)
 
-Creamos un contador regresivo el cual sera el tiempo que debera pasar entre que la herramientas es recogida para que se genere una nueva .
+Creamos un contador regresivo el cual sera el tiempo que debera pasar entre que la herramientas es recogida para que se genere una nueva.
+
+Por ultimo realizamos la funcion siemrpre y cuando la herramienta este ubicada correctamente, la funcion consiste en usarl el modulo ServerStorage, clonamos la herramienta con sus propiedades para volverla a generar, Esperamos a que el usuario tome el arma, y por ultimo esperamos a que el contador termine para generar la herramienta.
+
+![image](https://github.com/OliverGlezMoo/Proyecto_Roblox/assets/123349304/377197fa-7fc1-4c46-a095-bcf5916fba12)
+
+## MedKit
+
+Para este elemento usaremos dos scripts, el primero es del tipo ModuleScript, para este caso tomaremos uno previamente definido, dentro del cual lo unico que se hace es definir al Humanoid como el persona del usuario al cual el MedKit podra afectar.
+
+Para el scrip del medkit 
+
+![image](https://github.com/OliverGlezMoo/Proyecto_Roblox/assets/123349304/7886f07a-4fd2-4554-a62e-777e5c3acedd)
+
