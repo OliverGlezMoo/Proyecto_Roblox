@@ -14,4 +14,17 @@ Posterior a eso creamos el Script Run, dentro del cual simplemente definimos el 
 
 Por ultimo creamos el localscrpit llamda shift, en el usando el modulo GetService lo vamos a comprobar es si el usuario esta presionando la tecla shift, y de igual forma vamos a verificar cuando el usuario deje de presionarla.
 
+## Ciclo del día
 
+Este script es simplemente para generar la niche en nuestro juego, para ello definimos el tiempo que queremos que dure nuestro día en minutos, posterior a ello, usamos una funcion en repetir para hacer que sl ciclo sea de manera indefninada, dividimos el dia entre dos, para definir el dia y la noche
+
+![image](https://github.com/OliverGlezMoo/Proyecto_Roblox/assets/123349304/c1d26aef-7ae0-45e9-954d-68c41cea1d3c)
+![image](https://github.com/OliverGlezMoo/Proyecto_Roblox/assets/123349304/c67b3e38-4235-40a0-8558-97388338ca8e)
+
+## Cambiar arma con la tecla Q
+
+Para este codigo lo primero es agarrar un arma y colocarla dentro de la seccion de StarterPack
+
+![image](https://github.com/OliverGlezMoo/Proyecto_Roblox/assets/123349304/b69bf0db-b82b-47b6-90ec-1cbde56dcc68)
+
+Despues creamos el script del tipo local, dentro de el declararemos una funcion en la cual primero verificaremos si el usuario no tiene abierto el chat, de ser asi la funcion no aplica, si no, y el usuario presiona la tecla Q, primero se debera verificar que el usuario poseea el arma, si la tiene y lo presiona su hotbar pasara a la posición 1, si no tiene el arma, no sucede nada.
