@@ -1,4 +1,4 @@
---Verificar si el usuario ya posse el arma o la herramienta
+--Verificar si la herramienta esta ubicada en una posicion valida para generación
 local spawner = script.Parent
 local tool = nil
 local region = Region3.new(Vector3.new(spawner.Position.X - spawner.Size.X/2, spawner.Position.Y + spawner.Size.Y/2, spawner.Position.Z - spawner.Size.Z/2),
@@ -11,7 +11,7 @@ for _, part in pairs(parts) do
 	end
 end
 
---Cargar la configuraci�n de la herramienta ubicada encima del generador, para generarla con las mismas caracteristicas
+--Cargar la configuración de generador al bloque
 local configTable = spawner.Configurations
 local configs = {}
 local function loadConfig(configName, defaultValue)
