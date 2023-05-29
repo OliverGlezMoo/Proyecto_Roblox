@@ -22,7 +22,9 @@ Por ultimo realizamos la funcion siemrpre y cuando la herramienta este ubicada c
 
 Para este elemento usaremos dos scripts, el primero es del tipo ModuleScript, para este caso tomaremos uno previamente definido, dentro del cual lo unico que se hace es definir al Humanoid como el persona del usuario al cual el MedKit podra afectar.
 
-Para el scrip del medkit 
+Para el scrip del medkit lo primero es comprobar si el usuario esta usando el medkit para ello el usuario debio de darle click, si, si se esta usando lo siguiente es seguir el cooldown el cual define el tiempo que el medkit estara en uso dando el efecto de curación al jugador.
+
+Despues se usa la funcion de RootPart para obtener una part del usuario para que el efecto sea aplicable a el Humanoid, como ultima parte meramente visual generamos un humo de tono rojizo para indicar el rango dentro del cual el usuario podra ver curado.
 
 ![image](https://github.com/OliverGlezMoo/Proyecto_Roblox/assets/123349304/7886f07a-4fd2-4554-a62e-777e5c3acedd)
 
